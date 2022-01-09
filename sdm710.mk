@@ -69,6 +69,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # APEX
 PRODUCT_COMPRESSED_APEX := false
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
