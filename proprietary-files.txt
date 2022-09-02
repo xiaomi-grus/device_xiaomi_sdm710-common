@@ -143,41 +143,41 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Display (HDR)
-vendor/lib64/libhdr_tm.so
+# Display (HDR) - from OnePlus6 - RKQ1.201217.002/2106301530
+vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
 
-# Display (SDM) - from PNX - RKQ1.200906.002
-vendor/lib64/libsdedrm.so|5113b02d32b886281a790c8c323498195ec780f8
+# Display (SDM) - from LA.UM.9.8.r1-02700-SDM710.0
+vendor/lib64/libsdedrm.so|91b5dd629cafd39a48273fdb865d4ba89d4d4b6b
 
-# Display (SDM)
-vendor/lib/libdisplayqos.so
-vendor/lib/libqseed3.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-diag.so
-vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
-vendor/lib/libtinyxml2_1.so
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
+# Display (SDM) - from OnePlus6 - RKQ1.201217.002/2106301530
+vendor/lib/libqseed3.so|c328dd5713f5a5f0f081c803812f011eb5efdeef
+vendor/lib/libsdm-color.so|4735120a50b2b5e86247803379bdb38703ba62c2
+vendor/lib/libsdm-diag.so|4c3526bfa0cce5386d12a9132c7ea4be868bc5af
+vendor/lib/libsdm-disp-vndapis.so|2d5602785bd68ce21571012170ff776303375ca7
+vendor/lib/libsdmextension.so|514e6a82145e70a9d591be782c86bb2f44b7a20e
+vendor/lib/libtinyxml2_1.so|597d471aad4cd5c0cf73bab8bc04bac5ed95ee92
+vendor/lib64/libqseed3.so|3047207f4317d7fc81249d3b34bd42e442a5f7bd
+vendor/lib64/libsdm-color.so|3026565065b37bcfd1342c82d77bae579ea6ec08
+vendor/lib64/libsdm-diag.so|e964539c6d07a8abbdfcc98f9b27878d3a09185b
+vendor/lib64/libsdm-disp-vndapis.so|68f9171c08a2ba9654aaa3a1d9b0c050ae07bd97
+vendor/lib64/libsdmextension.so|ddcc83174b5b6dbed08888002cd08674f907e777
+vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Display postprocessing
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/mm-pp-dpps
-vendor/bin/ppd
+# Display postprocessing - from OnePlus6 - RKQ1.201217.002/2106301530
+vendor/bin/hw/vendor.display.color@1.0-service|f953144ced6869e640ca67930cea6d63e38f0a0d
+vendor/bin/mm-pp-dpps|0445e221a376694bd2a24f65ae7dceb32173228f
+vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
 vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
+vendor/lib/libdisplayqos.so|682f8ac9e13240bb57e3b15edd2d3edb4f4f67ce
+vendor/lib64/libdisp-aba.so|96126e40caaef8e32ab3498faf1e320754478103
+vendor/lib64/libdisplayqos.so|887345d6007b689c18e6bc388ba50ffffa3d4f64
+vendor/lib64/vendor.display.color@1.0.so|253cd210899ea79133c7b7b9d31429e4a8d43c32
+vendor/lib64/vendor.display.color@1.1.so|fe9b373785571bb890db27523b804dc7d4411bca
+vendor/lib64/vendor.display.color@1.2.so|f40eb8c9d39776c43448431d7c7f7ecc3e4506c3
+vendor/lib64/vendor.display.color@1.3.so|3fbe0a8a317789608848f35b39ed9bfb734f9ecc
+vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958d
+vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
+vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
 # DPM
 framework/tcmclient.jar
