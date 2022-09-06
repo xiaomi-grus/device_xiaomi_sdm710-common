@@ -164,7 +164,6 @@ debug.sf.hw=0
 debug.sf.disable_client_composition_cache=1
 debug.hwui.use_buffer_age=false
 persist.demo.hdmirotationlock=false
-persist.sys.sf.color_mode=9
 persist.sys.sf.native_mode=2
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
