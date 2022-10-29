@@ -3,6 +3,9 @@ ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
 
+#AvoidGfxAccel
+ro.config.avoid_gfx_accel=true
+
 # Audio
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=32
