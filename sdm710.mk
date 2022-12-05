@@ -19,8 +19,8 @@ USE_DEX2OAT_DEBUG := false
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    Launcher3QuickStep
+    SystemUIGoogle \
+    NexusLauncherRelease
 
 # SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
